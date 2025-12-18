@@ -1,7 +1,7 @@
 <?php
 	if($_SERVER['HTTP_HOST']==="localhost")
 	{
-		define("BASE_URL","http://localhost/mobifix/");
+		define("BASE_URL","http://localhost/server/mobifix/");
 		define("DB_HOST","localhost");
 		define("DB_USER","root");
 		define("DB_PASS","1234");

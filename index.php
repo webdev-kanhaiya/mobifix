@@ -133,7 +133,7 @@
                     <p class="second-section-desc">Get started in just a few simple steps</p>
                     <div class="process-box">
                         <div class="left-process">
-                            <iframe src="https://www.youtube.com/embed/MpZBIseUUlg?si=AD_S1dxGUD0UfCnZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            
                         </div>
                         <div class="right-process">
                             <div class="step">
@@ -230,6 +230,9 @@
     </div>
     <script>
         $(document).ready(function(){
+            setTimeout(function(){
+                $(".left-process").html('<iframe src="https://www.youtube.com/embed/MpZBIseUUlg?si=AD_S1dxGUD0UfCnZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>');
+            },4000);
             $("#menu-btn").click(function(){
                 if($(this).hasClass("fa fa-bars"))
                 {
