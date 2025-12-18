@@ -1,0 +1,114 @@
+[17-Dec-2025 12:09:52 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in /home/folkawym/public_html/php/config.php:20
+Stack trace:
+#0 /home/folkawym/public_html/php/config.php(20): mysqli_connect('localhost', 'root', '1234', 'molexy')
+#1 /home/folkawym/public_html/index.php(8): require('/home/folkawym/...')
+#2 {main}
+  thrown in /home/folkawym/public_html/php/config.php on line 20
+[17-Dec-2025 12:09:54 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in /home/folkawym/public_html/php/config.php:20
+Stack trace:
+#0 /home/folkawym/public_html/php/config.php(20): mysqli_connect('localhost', 'root', '1234', 'molexy')
+#1 /home/folkawym/public_html/index.php(8): require('/home/folkawym/...')
+#2 {main}
+  thrown in /home/folkawym/public_html/php/config.php on line 20
+[17-Dec-2025 12:10:03 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in /home/folkawym/public_html/php/config.php:20
+Stack trace:
+#0 /home/folkawym/public_html/php/config.php(20): mysqli_connect('localhost', 'root', '1234', 'molexy')
+#1 /home/folkawym/public_html/index.php(8): require('/home/folkawym/...')
+#2 {main}
+  thrown in /home/folkawym/public_html/php/config.php on line 20
+[17-Dec-2025 12:10:03 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in /home/folkawym/public_html/php/config.php:20
+Stack trace:
+#0 /home/folkawym/public_html/php/config.php(20): mysqli_connect('localhost', 'root', '1234', 'molexy')
+#1 /home/folkawym/public_html/index.php(8): require('/home/folkawym/...')
+#2 {main}
+  thrown in /home/folkawym/public_html/php/config.php on line 20
+[17-Dec-2025 12:10:03 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in /home/folkawym/public_html/php/config.php:20
+Stack trace:
+#0 /home/folkawym/public_html/php/config.php(20): mysqli_connect('localhost', 'root', '1234', 'molexy')
+#1 /home/folkawym/public_html/index.php(8): require('/home/folkawym/...')
+#2 {main}
+  thrown in /home/folkawym/public_html/php/config.php on line 20
+[17-Dec-2025 12:10:03 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in /home/folkawym/public_html/php/config.php:20
+Stack trace:
+#0 /home/folkawym/public_html/php/config.php(20): mysqli_connect('localhost', 'root', '1234', 'molexy')
+#1 /home/folkawym/public_html/index.php(8): require('/home/folkawym/...')
+#2 {main}
+  thrown in /home/folkawym/public_html/php/config.php on line 20
+[17-Dec-2025 12:11:32 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in /home/folkawym/public_html/php/config.php:20
+Stack trace:
+#0 /home/folkawym/public_html/php/config.php(20): mysqli_connect('localhost', 'root', '1234', 'molexy')
+#1 /home/folkawym/public_html/index.php(8): require('/home/folkawym/...')
+#2 {main}
+  thrown in /home/folkawym/public_html/php/config.php on line 20
+[17-Dec-2025 12:11:55 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in /home/folkawym/public_html/php/config.php:20
+Stack trace:
+#0 /home/folkawym/public_html/php/config.php(20): mysqli_connect('localhost', 'root', '1234', 'molexy')
+#1 /home/folkawym/public_html/index.php(8): require('/home/folkawym/...')
+#2 {main}
+  thrown in /home/folkawym/public_html/php/config.php on line 20
+[17-Dec-2025 12:12:18 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in /home/folkawym/public_html/php/config.php:20
+Stack trace:
+#0 /home/folkawym/public_html/php/config.php(20): mysqli_connect('localhost', 'root', '1234', 'molexy')
+#1 /home/folkawym/public_html/index.php(8): require('/home/folkawym/...')
+#2 {main}
+  thrown in /home/folkawym/public_html/php/config.php on line 20
+[17-Dec-2025 12:18:06 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in /home/folkawym/public_html/php/config.php:20
+Stack trace:
+#0 /home/folkawym/public_html/php/config.php(20): mysqli_connect('localhost', 'root', '1234', 'molexy')
+#1 /home/folkawym/public_html/index.php(8): require('/home/folkawym/...')
+#2 {main}
+  thrown in /home/folkawym/public_html/php/config.php on line 20
+[17-Dec-2025 12:20:05 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in /home/folkawym/public_html/php/config.php:20
+Stack trace:
+#0 /home/folkawym/public_html/php/config.php(20): mysqli_connect('localhost', 'root', '1234', 'molexy')
+#1 /home/folkawym/public_html/index.php(8): require('/home/folkawym/...')
+#2 {main}
+  thrown in /home/folkawym/public_html/php/config.php on line 20
+[17-Dec-2025 12:21:53 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'folkawym'@'localhost' (using password: YES) in /home/folkawym/public_html/php/config.php:20
+Stack trace:
+#0 /home/folkawym/public_html/php/config.php(20): mysqli_connect('localhost', 'folkawym', 'Kanhaiya@1234', 'folkawym_mobifi...')
+#1 /home/folkawym/public_html/index.php(8): require('/home/folkawym/...')
+#2 {main}
+  thrown in /home/folkawym/public_html/php/config.php on line 20
+[17-Dec-2025 12:25:15 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'folkawym'@'localhost' (using password: YES) in /home/folkawym/public_html/php/config.php:20
+Stack trace:
+#0 /home/folkawym/public_html/php/config.php(20): mysqli_connect('localhost', 'folkawym', 'Kanhaiya@1234', 'folkawym_mobifi...')
+#1 /home/folkawym/public_html/index.php(8): require('/home/folkawym/...')
+#2 {main}
+  thrown in /home/folkawym/public_html/php/config.php on line 20
+[17-Dec-2025 12:25:21 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'folkawym'@'localhost' (using password: YES) in /home/folkawym/public_html/php/config.php:20
+Stack trace:
+#0 /home/folkawym/public_html/php/config.php(20): mysqli_connect('localhost', 'folkawym', 'Kanhaiya@1234', 'folkawym_mobifi...')
+#1 /home/folkawym/public_html/index.php(8): require('/home/folkawym/...')
+#2 {main}
+  thrown in /home/folkawym/public_html/php/config.php on line 20
+[17-Dec-2025 12:25:28 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'folkawym'@'localhost' (using password: YES) in /home/folkawym/public_html/php/config.php:20
+Stack trace:
+#0 /home/folkawym/public_html/php/config.php(20): mysqli_connect('localhost', 'folkawym', 'Kanhaiya@1234', 'folkawym_mobifi...')
+#1 /home/folkawym/public_html/index.php(8): require('/home/folkawym/...')
+#2 {main}
+  thrown in /home/folkawym/public_html/php/config.php on line 20
+[17-Dec-2025 12:26:43 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'folkawym_kanhaiya'@'localhost' to database 'folkawym_mobifix' in /home/folkawym/public_html/php/config.php:20
+Stack trace:
+#0 /home/folkawym/public_html/php/config.php(20): mysqli_connect('localhost', 'folkawym_kanhai...', 'Kanhaiya@1234', 'folkawym_mobifi...')
+#1 /home/folkawym/public_html/index.php(8): require('/home/folkawym/...')
+#2 {main}
+  thrown in /home/folkawym/public_html/php/config.php on line 20
+[17-Dec-2025 12:26:47 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'folkawym_kanhaiya'@'localhost' to database 'folkawym_mobifix' in /home/folkawym/public_html/php/config.php:20
+Stack trace:
+#0 /home/folkawym/public_html/php/config.php(20): mysqli_connect('localhost', 'folkawym_kanhai...', 'Kanhaiya@1234', 'folkawym_mobifi...')
+#1 /home/folkawym/public_html/index.php(8): require('/home/folkawym/...')
+#2 {main}
+  thrown in /home/folkawym/public_html/php/config.php on line 20
+[17-Dec-2025 12:26:51 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'folkawym_kanhaiya'@'localhost' to database 'folkawym_mobifix' in /home/folkawym/public_html/php/config.php:20
+Stack trace:
+#0 /home/folkawym/public_html/php/config.php(20): mysqli_connect('localhost', 'folkawym_kanhai...', 'Kanhaiya@1234', 'folkawym_mobifi...')
+#1 /home/folkawym/public_html/index.php(8): require('/home/folkawym/...')
+#2 {main}
+  thrown in /home/folkawym/public_html/php/config.php on line 20
+[17-Dec-2025 12:28:17 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'folkawym_kanhaiya'@'localhost' to database 'folkawym_mobifix' in /home/folkawym/public_html/php/config.php:20
+Stack trace:
+#0 /home/folkawym/public_html/php/config.php(20): mysqli_connect('localhost', 'folkawym_kanhai...', 'Kanhaiya@1234', 'folkawym_mobifi...')
+#1 /home/folkawym/public_html/index.php(8): require('/home/folkawym/...')
+#2 {main}
+  thrown in /home/folkawym/public_html/php/config.php on line 20

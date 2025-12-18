@@ -1,0 +1,139 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins',sans-serif;
+	letter-spacing: 0.2px;
+}
+
+html{
+	font-size: 14px;
+}
+
+:root{
+	--primary-color:#4500B7;
+}
+
+.text-center{
+	text-align: center;
+}
+
+.text-right{
+	text-align: right;
+}
+
+.table-box{
+	max-width: 100%;
+}
+
+.table-box table{
+	min-width: 800px;
+	border-radius: 10px;
+	overflow: hidden;
+	border: 1px solid #eee;
+	text-wrap: nowrap;
+}
+
+.table-box table thead tr{
+	background-color: var(--primary-color);
+	color: white;
+}
+
+.table-box table thead tr th{
+	padding: 10px 20px;
+}
+
+.table-box table tbody tr td{
+	text-align: center;
+	padding: 10px 20px;
+}
+
+.table-box table tbody tr:nth-child(even)
+{
+	background-color: #eee;
+}
+
+.table-box button{
+	padding: 7px 10px;
+	font-weight: 500;
+	font-size: 0.9rem;
+	cursor: pointer;
+	border: none;
+	border-radius: 5px;
+}
+
+.table-box tbody tr td img{
+	width: 45px;
+	padding: 2px;
+	cursor: pointer;
+	border-radius: 5px;
+}
+
+.table-box tbody tr td span{
+	padding: 8px 10px;
+	font-weight: 500;
+	border-radius: 30px;
+	font-size: 0.80rem;	
+}
+
+.cancelled-label{
+	background-color: #F8D7DA;
+	color: #721C24;
+}
+
+.pending-label{
+	background-color: #FFF3CD;
+	color: #856404;
+}
+
+.delivered-label{
+	background-color: #D4EDDA;
+	color: #155724;
+}
+
+.repaired-label{
+	background-color: #CCE5FF;
+	color: #004085;
+}
+
+.pagination{
+	margin: 0px auto;
+	width: fit-content;
+	max-width: 100%;
+	overflow-x: auto;
+	display: flex;
+	justify-content: flex-start;
+	margin-top: 20px;
+	border-left: 2px solid #ddd;
+	border-right: 2px solid #ddd;
+	padding: 4px;
+}
+
+.pagination-link{
+	height: 40px;
+	min-width: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #ddd;
+	border-radius: 8px;
+	margin: 0px 4px;
+	cursor: pointer;
+	color: #161616;
+}
+
+.pagination-link.active{
+	background-color: var(--primary-color);
+	color: white;
+}
+
+.pagination::-webkit-scrollbar{
+	display: none;
+}
+
+@media(max-width: 576px)
+{
+	html{
+		font-size: 14.5px;
+	}
+}

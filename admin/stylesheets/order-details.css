@@ -1,0 +1,166 @@
+.container{
+	height: auto;
+	width: 100%;
+	padding: 20px;
+	max-width: 600px;
+	margin: 0 auto;
+}
+
+.topbar{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.back-btn{
+	text-decoration: none;
+	color: grey;
+	font-weight: 500;
+}
+
+.topbar p{
+	padding: 5px 10px;
+	font-weight: 500;
+	font-size: 0.9rem;
+	background-color: #D4EDDA;
+	color: #155724;
+	border-radius: 20px;
+}
+
+.header-btn-box{
+	margin-top: 20px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.header-btn-box button{
+	width: 49%;
+	padding: 12px 15px;
+	border: none;
+	border-radius: 5px;
+	background-color: var(--primary-color);
+	color: white;
+	font-weight: 500;
+	cursor: pointer;
+}
+
+.content-box{
+	height: auto;
+	width: 100%;
+	margin-top: 20px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	padding: 12px;
+}
+
+.content-box h4{
+	font-weight: 600;
+	color: orangered;
+	font-size: 1.1rem;
+}
+
+.details{
+	list-style: none;
+}
+
+.details li{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	background-color: #eee;
+	padding: 10px;
+	margin-top: 10px;
+	border-radius: 5px;
+	font-size: 0.9rem;
+}
+
+.particular{
+	font-weight: 600;
+}
+
+.value{
+	font-weight: 500;
+}
+
+.after-heading{
+	margin-top: 20px;
+}
+
+li button{
+	padding: 5px 10px;
+	background-color: var(--primary-color);
+	color: white;
+	border: none;
+	border-radius: 5px;
+	font-weight: 500;
+	font-size: 0.9rem;
+	cursor: pointer;
+}
+
+li span{
+	padding: 5px 10px;
+	font-weight: 500;
+	font-size: 0.9rem;
+	background-color: #D4EDDA;
+	color: #155724;
+	border-radius: 20px;
+}
+
+.problems-wrapper{
+	margin-top: 15px;
+}
+
+.problems-wrapper h5{
+	font-weight: 600;
+	font-size: 1.1rem;
+	padding-left: 10px;
+}
+
+.problems{
+	display: flex;
+	justify-content: flex-start;
+	overflow-x: auto;
+	margin-top: 10px;
+}
+
+.problems span{
+	width: fit-content;
+	display: flex;
+	padding: 5px 10px;
+	justify-content: flex-start;
+	align-items: center;
+	text-wrap: nowrap;
+	font-weight: 500;
+	font-size: 0.8rem;
+	background-color: #FFF3CD;
+	color: #856404;
+	margin-right: 10px;
+	border-radius: 20px;
+}
+
+.problems::-webkit-scrollbar{
+	display: none;
+}
+
+.image-box{
+	margin-top: 10px;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	padding: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.image-box img{
+	max-width: 100%;
+	border-radius: 5px;
+}
+
+@media(min-width: 450px)
+{
+	html{
+		font-size: 15px;
+	}
+}

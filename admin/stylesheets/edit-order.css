@@ -1,0 +1,268 @@
+:root{
+	--primary-color: red;
+}
+
+body{
+	background-color: var(--primary-color);
+}
+
+.container{
+	min-height: 100vh;
+	height: auto;
+	width: 100%;
+	max-width: 600px;
+	margin: 0px auto;
+}
+
+.header{
+	padding: 20px;
+}
+
+.header a{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 50px;
+	width: 50px;
+	background-color: white;
+	text-decoration: none;
+	color: var(--primary-color);
+	font-weight: 500;
+	border-radius: 50%;
+	font-size: 1.4rem;
+}
+
+.header-content{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 10px;
+}
+
+.header-content h1{
+	color: white;
+	font-weight: 600;
+	font-size: 1.5rem;
+}
+
+.header-content img{
+	width: 100px;
+	margin-left: 20px;
+}
+
+.form-box{
+	height: auto;
+	width: 100%;
+	padding: 20px;
+	background-color: white;
+	border-radius: 30px 30px 0px 0px;
+}
+
+.form-box h4{
+	font-weight: 600;
+	font-size: 1.15rem;
+	color: orangered;
+}
+
+.field-box{
+	margin-top: 15px;
+}
+
+.field-box input,.problem-input-box input,.input-row-half input{
+	width: 100%;
+	height: 50px;
+	font-weight: 500;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	padding: 0px 10px;
+	outline-color: var(--primary-color);
+}
+
+.suggestions{
+	list-style: none;
+	height: auto;
+	width: 100%;
+	background-color: #ccc;
+	padding: 10px;
+	display: none;
+}
+
+.suggestions li{
+	background-color: white;
+	padding: 7px 10px;
+	margin: 5px 0px;
+	border-radius: 5px;
+	font-weight: 500;
+	font-size: 0.9rem;
+}
+
+.mobile-info-heading{
+	margin-top:25px;
+}
+
+.problems-wrapper{
+	margin-top: 15px;
+}
+
+.problem-box{
+	display: none;
+	justify-content: flex-start;
+	overflow-x: auto;
+	margin-bottom: 15px;
+}
+
+.problem-box p{
+	width: fit-content;
+	display: flex;
+	padding: 8px 10px;
+	justify-content: flex-start;
+	align-items: center;
+	text-wrap: nowrap;
+	font-weight: 500;
+	font-size: 0.9rem;
+	background-color: #D4EDDA;
+	color: #155724;
+	margin-right: 10px;
+	border-radius: 20px;
+}
+
+.problem-box p span{
+	margin-right: 10px;
+}
+
+.problem-box p i{
+	font-size: 1.1rem;
+	cursor: pointer;
+}
+
+.problem-box::-webkit-scrollbar{
+	display: none;
+}
+
+.problem-input-box{
+	display: flex;
+	justify-content: space-between;
+}
+
+.problem-input-box input{
+	width: calc(100% - 55px);
+}
+
+.problem-input-box button{
+	border: none;
+	width: 50px;
+	background-color: var(--primary-color);
+	color: white;
+	border-radius: 5px;
+	font-size: 2rem;
+	cursor: pointer;
+}
+
+.input-row-half{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 15px;
+}
+
+.input-row-half input{
+	width: 49%;
+}
+
+.input-row-half button{
+	width: 49%;
+	border: none;
+	/*background-color: var(--primary-color);
+	color: white;*/
+	background-color: #ccc;
+	border-radius: 5px;
+	font-size: 1rem;
+	font-weight: 500;
+	cursor: pointer;
+}
+
+.preview-box{
+	width: 120px;
+}
+
+.preview-box img{
+	width: 100%;
+	border-radius: 5px;
+}
+
+/*#picture{
+	height: auto;
+	width: 100%;
+	padding: 20px;
+	margin-top: 20px;
+	border: none;
+	border-radius: 5px;
+	font-weight: 500;
+	cursor: pointer;
+}
+
+#picture i{
+	font-size: 2.5rem;
+	margin-bottom: 10px;
+}*/
+
+.file-upload-box{
+	margin-top: 20px;
+	background-color: #eee;
+	height: auto;
+	min-height: 100px;
+	width: 100%;
+	padding: 20px;
+	position: relative;
+	border-radius: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.file-upload-box input{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	cursor: pointer;
+}
+
+.file-upload-box i{
+	font-size: 3.5rem;
+	margin-bottom: 15px;
+}
+
+.file-upload-box h3{
+	font-weight: 600;
+	font-size: 1rem;
+	margin-bottom: 4px;
+}
+
+.file-upload-box p{
+	font-weight: 500;
+	font-size: 0.8rem;
+}
+
+#submit-btn{
+	margin-top: 30px;
+	width: 100%;
+	padding: 15px 20px;
+	background-color: var(--primary-color);
+	color: white;
+	font-weight: 600;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.field-box textarea{
+	height: 100px;
+	width: 100%;
+	border: 1px solid #ccc;
+	outline-color: var(--primary-color);
+	border-radius: 5px;
+	padding: 10px;
+}

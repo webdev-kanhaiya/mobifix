@@ -1,0 +1,16 @@
+[17-Dec-2025 13:55:32 UTC] PHP Warning:  Undefined array key "for" in /home/folkawym/public_html/php/send-verification-email.php on line 7
+[17-Dec-2025 13:55:32 UTC] PHP Deprecated:  mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated in /home/folkawym/public_html/php/send-verification-email.php on line 7
+[17-Dec-2025 13:55:36 UTC] PHP Warning:  Undefined array key "for" in /home/folkawym/public_html/php/send-verification-email.php on line 7
+[17-Dec-2025 13:55:36 UTC] PHP Deprecated:  mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated in /home/folkawym/public_html/php/send-verification-email.php on line 7
+[17-Dec-2025 17:59:27 UTC] PHP Warning:  Undefined array key "for" in /home/folkawym/public_html/php/send-verification-email.php on line 7
+[17-Dec-2025 17:59:27 UTC] PHP Deprecated:  mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated in /home/folkawym/public_html/php/send-verification-email.php on line 7
+[17-Dec-2025 17:59:30 UTC] PHP Warning:  Undefined array key "for" in /home/folkawym/public_html/php/send-verification-email.php on line 7
+[17-Dec-2025 17:59:30 UTC] PHP Deprecated:  mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated in /home/folkawym/public_html/php/send-verification-email.php on line 7
+[18-Dec-2025 09:06:13 UTC] PHP Warning:  Constant BASE_URL already defined in /home/folkawym/public_html/php/config.php on line 16
+[18-Dec-2025 09:06:13 UTC] PHP Warning:  Constant DB_HOST already defined in /home/folkawym/public_html/php/config.php on line 17
+[18-Dec-2025 09:06:13 UTC] PHP Warning:  Constant DB_USER already defined in /home/folkawym/public_html/php/config.php on line 18
+[18-Dec-2025 09:06:13 UTC] PHP Warning:  Constant DB_PASS already defined in /home/folkawym/public_html/php/config.php on line 19
+[18-Dec-2025 09:06:13 UTC] PHP Warning:  Constant DB_NAME already defined in /home/folkawym/public_html/php/config.php on line 20
+[18-Dec-2025 09:06:13 UTC] PHP Warning:  Constant SMTP_SERVER already defined in /home/folkawym/public_html/php/config.php on line 21
+[18-Dec-2025 09:06:13 UTC] PHP Warning:  Constant EMAIL_ID already defined in /home/folkawym/public_html/php/config.php on line 22
+[18-Dec-2025 09:06:13 UTC] PHP Warning:  Constant EMAIL_PASS already defined in /home/folkawym/public_html/php/config.php on line 23

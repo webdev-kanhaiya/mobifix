@@ -1,0 +1,331 @@
+.container{
+	height: auto;
+	width: 100%;
+	background-color: rgba(69, 0, 183, 0.05);
+}
+
+.topbar{
+	position: sticky;
+	top: 0;
+	left: 0;
+	z-index: 111;
+}
+
+.content-box{
+	width: 100%;
+	height: 100vh;
+	position: fixed;
+	right: -100%;
+	top: 0;
+	background-color: white;
+	overflow-y: auto;
+	padding: 15px;
+	padding-top: 85px;
+}
+
+#close-content-box{
+	height: 40px;
+	width: 40px;
+	background-color: rgba(69,0,183,0.1);
+	border-radius: 5px;
+	font-size: 1.3rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	top: 85px;
+	right: 20px;
+	cursor: pointer;
+	z-index: 1111;
+}
+
+.options-box{
+	height: 100%;
+	overflow-y: auto;
+	width: 100%;
+	padding: 20px;
+}
+
+.header{
+	background-image: radial-gradient(circle at 38% 32%, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.03) 8%,transparent 8%, transparent 92%),radial-gradient(circle at 34% 62%, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.03) 8%,transparent 8%, transparent 92%),radial-gradient(circle at 3% 32%, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.03) 6%,transparent 6%, transparent 94%),radial-gradient(circle at 28% 87%, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.03) 6%,transparent 6%, transparent 94%),radial-gradient(circle at 15% 30%, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.03) 6%,transparent 6%, transparent 94%),radial-gradient(circle at 64% 45%, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.03) 6%,transparent 6%, transparent 94%),radial-gradient(circle at 3% 100%, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.03) 6%,transparent 6%, transparent 94%),radial-gradient(circle at 74% 78%, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.03) 4%,transparent 4%, transparent 96%),radial-gradient(circle at 92% 23%, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.03) 4%,transparent 4%, transparent 96%),radial-gradient(circle at 100% 40%, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.03) 4%,transparent 4%, transparent 96%),radial-gradient(circle at 43% 31%, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.03) 4%,transparent 4%, transparent 96%),linear-gradient(90deg, rgb(164, 0, 244),rgb(57, 10, 184));
+	border-radius: 70px;
+	padding: 15px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.image-box{
+	width: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.image-box img{
+	width: 100%;
+	border-radius: 50%;
+	border: 2px solid white;
+}
+
+.header-text-box{
+	width: calc(100% - 50px);
+	padding-left: 15px;
+}
+
+.header-text-box h2{
+	font-weight: 600;
+	font-size: 1.2rem;
+	color: white;
+	margin-bottom: 5px;
+}
+
+.header-text-box p{
+	font-size: 0.9rem;
+	font-weight: 500;
+	color: white;
+}
+
+.label{
+	font-weight: 500;
+	margin-top: 20px;
+	color: grey;
+	padding-left: 15px;
+}
+
+.links{
+	margin-top: 15px;
+}
+
+.link{
+	background-color: white;
+	border-radius: 10px;
+	padding: 10px 20px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	border: 1px solid #ccc;
+	border-left: 5px solid #ccc;
+	margin-bottom: 10px;
+	position: relative;
+	cursor: pointer;
+}
+
+.link-icon i{
+	font-size: 1.3rem;
+	color: #161616;
+}
+
+.link-details{
+	padding-left: 15px;
+}
+
+.link-details h3{
+	font-weight: 500;
+	font-size: 1rem;
+	margin-bottom: 4px;
+}
+
+.link-details p{
+	font-size: 0.8rem;
+	font-weight: 500;
+	color: grey;
+}
+
+.developed-by{
+	text-align: center;
+	font-weight: 600;
+	margin-top: 20px;
+	font-size: 0.8rem;
+	color: grey;
+}
+
+.chevron{
+	position: absolute;
+	right: 20px;
+	top:50%;
+	font-size: 1rem;
+	color: grey;
+	transform: translateY(-50%);
+}
+
+.chart-box{
+	margin-bottom: 40px;
+}
+
+.chart-box h2{
+	font-size: 1.2rem;
+	font-weight: 600;
+	color: #323232;
+}
+
+.chart-box p{
+	color: grey;
+	font-weight: 500;
+	margin-top: 5px;
+	font-size: 0.9rem;
+}
+
+.inner-content-box{
+	width: 100%;
+	max-width: 1000px;
+	margin: 0px auto;
+	margin-top: 50px;
+}
+
+.content-box:has(.table-box){
+	padding: 0;
+}
+
+.inner-content-box:has(.table-box)
+{
+	max-width: 100%;
+	overflow-x: auto;
+	padding: 20px;
+}
+
+*::-webkit-scrollbar{
+	display: none;
+}
+
+.edit-popup{
+	height: 100vh;
+	width: 100%;
+	overflow-y: auto;
+	background-color: rgba(0, 0, 0, 0.5);
+	backdrop-filter: blur(3px);
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	padding: 20px;
+	z-index: 111;
+	display: none;
+}
+
+.edit-box{
+	padding: 40px 20px;
+	background-color: white;
+	max-width: 500px;
+	margin: 60px auto;
+	border-radius: 20px;
+	position: relative;
+}
+
+#edit-close{
+	position: absolute;
+	top: 40px;
+	right: 28px;
+	font-size: 1.8rem;
+	color: #ccc;
+	cursor: pointer;
+}
+
+.edit-box h3{
+	font-size: 1.5rem;
+	font-weight: 600;
+	color: var(--primary-color);
+	font-family: var(--heading-font);
+	margin-bottom: 20px;
+	padding: 0px 8px;
+}
+
+#edit-form input{
+	width: 100%;
+	height: 45px;
+	padding: 0px 16px;
+	font-weight: 500;
+	border-radius: 8px;
+	border: 1px solid #ccc;
+	margin-bottom: 16px;
+	outline: none;
+}
+
+#edit-form textarea{
+	width: 100%;
+	height: 120px;
+	border-radius: 8px;
+	border: 1px solid #ccc;
+	padding: 16px;
+	font-weight: 500;
+	margin-bottom: 16px;
+	outline:none;
+}
+
+#edit-form button{
+	width: 100%;
+	padding: 12px;
+	border-radius: 8px;
+	border: none;
+	background-color: var(--primary-color);
+	color: white;
+	font-weight: 500;
+	cursor: pointer;
+}
+
+#edit-form input:focus,#edit-form textarea:focus{
+	transition: 0.2s;
+	scale: 0.98;
+}
+
+#edit-form button:hover{
+	background-color: black;
+	transition: 0.2s;
+	scale: 0.98;
+}
+
+@media(min-width:576px)
+{
+	.chart-box{
+		width: 540px;
+		margin: 0px auto;
+		margin-bottom: 40px;
+	}	
+}
+
+
+@media(min-width:768px)
+{
+	.container{
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.options-box{
+		width: 350px;
+	}
+
+	.content-box{
+		height: auto;
+		width: calc(100% - 350px);
+		position: static;
+		overflow-y: auto;
+		padding: 20px;
+	}
+
+	.chart-box{
+		width: 100%;
+	}
+
+	.inner-content-box{
+		margin-top: 0;
+	}
+
+	#close-content-box{
+		display: none;
+	}
+}
+
+@media(min-width:992px){
+	.inner-content-box{
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+	}
+
+	.first{
+		width: 100%;
+	}
+
+	.third,.second{
+		width: 45%;
+	}
+}

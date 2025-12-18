@@ -1,0 +1,207 @@
+.invoice-box{
+	height: auto;
+	width: 210mm;
+	margin: 0px auto;
+	padding: 20px;
+}
+
+.header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 1px solid black;
+	padding-bottom: 20px;
+}
+
+.model{
+	margin-bottom: 10px;
+	font-weight: 600;
+	font-size: 1.2rem;
+}
+
+.qr-box,.logo-box{
+	width: 80px;
+}
+
+.seller-box{
+	width: calc(100% - 160px);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding: 0px 20px;
+}
+
+address{
+	font-weight: 500;
+}
+
+#address{
+	margin: 5px 0px;
+}
+
+.logo-box img,.qr-box img{
+	width: 100%;
+}
+
+.qr-box p{
+	text-align: center;
+	font-weight: 500;
+	font-size: 0.8rem;
+}
+
+.billing-box{
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 1px solid;
+}
+
+.right-billing{
+	width: 300px;
+	padding: 20px 0px;
+	padding-left: 20px;
+}
+
+.left-billing{
+	width: calc(100% - 300px);
+	padding: 20px 0px;
+	border-right: 1px solid;
+	padding-right: 20px;
+}
+
+.left-billing h2{
+	font-weight: 600;
+	font-size: 1.5rem;
+	margin-bottom: 7px;
+}
+
+.left-billing p{
+	font-weight: 500;
+	font-size: 1rem;
+	margin-bottom: 7px;
+}
+
+.right-billing p{
+	font-weight: 500;
+	margin-bottom: 5px;
+}
+
+.content-box{
+	display: flex;
+	justify-content: space-between;
+	border: 1px solid black;
+	border-top: none;
+}
+
+.rate-box{
+	width: 150px;
+	text-align: center;
+	border-left: 1px solid;
+}
+
+.particulars-box{
+	width: calc(100% - 150px);
+}
+
+.th{
+	font-weight: 600;
+	padding: 10px;
+	border-bottom: 1px solid;
+}
+
+.tf{
+	font-size: 1.1rem;
+	font-weight: 600;
+	padding: 10px;
+}
+
+.border-tf{
+	border-top: 1px solid black;
+}
+
+.particulars,.rate{
+	padding: 15px 10px;
+	font-weight: 500;
+	min-height: 200px;
+}
+
+.particulars p,.rate p{
+	font-weight: 600;
+	margin-bottom: 8px;
+}
+
+.terms-box{
+	display: flex;
+	justify-content: space-between;
+	border: 1px solid;
+	margin-top: 15px;
+}
+
+.terms,.signature{
+	padding: 15px 20px;
+}
+
+.signature{
+	width: 150px;
+	border-left: 1px solid;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+}
+
+.signature p{
+	font-weight: 500;
+	font-size: 0.7rem;
+	text-align: center;
+}
+
+.terms{
+	width: calc(100% - 150px);
+}
+
+.terms ol{
+	margin-left: 5px;
+}
+
+.terms ol li{
+	font-weight: 500;
+	margin: 5px 0px;
+	font-size: 0.9rem;
+}
+
+.btn-box{
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+}
+
+.btn-box button{
+	display: block;
+	margin-top: 15px;
+	height: 50px;
+	width: 50px;
+	font-size: 1.4rem;
+	background-color: var(--primary-color);
+	border-radius: 50%;
+	border: none;
+	color: white;
+	cursor: pointer;
+}
+
+
+
+@media print{
+	body *{
+		visibility: hidden;
+	}
+
+	.invoice-box,.invoice-box *{
+		visibility: visible;
+	}
+
+	.invoice-box{
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+}
