@@ -3,50 +3,39 @@
 	{
 		$title="$shop_name : Dashboard";
 		$stylesheet="style.css";
-		$description="Later";
-		$keywords="Later";
+		/*$description="Later";
+		$keywords="Later";*/
 	}
 	else if(strtolower(basename($_SERVER['PHP_SELF']))=="add-order.php")
 	{
 		$title="Mobifix : Add Order";
 		$stylesheet="add-order.css";
-		$description="Later";
-		$keywords="Later";
 	}
 	else if(strtolower(basename($_SERVER['PHP_SELF']))=="edit-order.php")
 	{
 		$title="Mobifix : Edit Order";
 		$stylesheet="edit-order.css";
-		$description="Later";
-		$keywords="Later";
 	}
 	else if(strtolower(basename($_SERVER['PHP_SELF']))=="invoice.php")
 	{
 		$title="Mobifix : Invoice";
 		$stylesheet="invoice.css";
-		$description="Later";
-		$keywords="Later";
 	}
 	else if(strtolower(basename($_SERVER['PHP_SELF']))=="order-details.php")
 	{
 		$title="Mobifix : Order Details";
 		$stylesheet="order-details.css";
-		$description="Later";
-		$keywords="Later";
 	}
 	else if(strtolower(basename($_SERVER['PHP_SELF']))=="settings.php")
 	{
 		$title="Mobifix : Settings";
 		$stylesheet="settings.css";
-		$description="Later";
-		$keywords="Later";
 	}
 ?>
 <meta charset="utf-8">
-<meta name="description" content="<?php echo $description; ?>">
-<meta name="keywords" content="<?php echo $keywords; ?>">
 <meta name="author" content="Mobifix : Kanhaiya Lal Gupta">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
 <title><?php echo $title; ?></title>
 <link rel="stylesheet" type="text/css" href="../stylesheets/common.css">
 <link rel="stylesheet" type="text/css" href="stylesheets/<?php echo $stylesheet; ?>">
